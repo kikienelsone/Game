@@ -1,0 +1,65 @@
+.city-goods {
+  .good-item-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .good-item {
+      width: 50px;
+      height: 50px;
+      border: 1px solid #877f72;
+      margin: 5px;
+      vertical-align: top;
+
+
+      background: url("../icons/apple.png") no-repeat;
+      cursor: pointer;
+
+      &.item-1 {
+        background: url("../icons/apple.png") 0 0 no-repeat;
+      }
+
+      &.item-2 {
+        background: url("../icons/honeypot.png") 0 0 no-repeat;
+
+      }
+
+      &.item-3 {
+        background: url("../icons/tomato.png") no-repeat;
+
+      }
+
+      &.item-4 {
+        background: url("../icons/cake.png") 0 0 no-repeat;
+
+      }
+
+      &.item-5 {
+        background: url("../icons/strawberries.png") 0 0 no-repeat;
+
+      }
+
+      &.item-6 {
+        background: url("../icons/chicken.png") 0 0 no-repeat;
+
+      }
+
+      &.item-7 {
+        background: url("../icons/dessert.png") 0 0 no-repeat;
+
+      }
+
+      &.item-8 {
+        background: url("../icons/lemon.png") 0 0 no-repeat;
+
+      }
+    }
+
+    .good-item-stats {
+      border: 1px solid #877f72;
+      padding: 10px;
+      height: 100px;
+      width: 370px;
+      margin: 5px;
+    }
+  }
+}
